@@ -45,7 +45,7 @@ li a{
 	text-shadow: 0px 0px 1px #fff;
 	padding-left: 10px;
 }
-@media (max-width: 330px) {
+@media (max-width: 600px) {
 .wrp{
 	justify-content: center;
 	}
