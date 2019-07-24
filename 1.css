@@ -19,7 +19,7 @@ body {
 }
 li {
 	 list-style-type: none;
-	 font-size: 50px;
+	 font-size: 3rem;
 	 display: block;
 }
 a {
@@ -44,4 +44,22 @@ li a{
 	color: #fff;
 	text-shadow: 0px 0px 1px #fff;
 	padding-left: 10px;
+}
+@media (max-width: 330px) {
+.wrp{
+	justify-content: center;
+	}
+	.menu {
+		margin-bottom: 80%;
+		margin-left: 0%;
+		padding: 0;
+	}
+li a {
+	font-size: 1rem;
+		color: #fff;
+		text-shadow: 0px 0px 5px #0c2461;
+		letter-spacing: 1px;
+		line-height: 1.5rem;
+		opacity: 0.8;
+}
 }
