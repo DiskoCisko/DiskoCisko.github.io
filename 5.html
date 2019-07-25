@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>p1</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<style>
+		body {
+			margin-top: 70px;
+			background-color: #680c0c;
+			color: #9f9b9b;
+		}
+		.card-block {
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="conteiner">
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<h1 class="display-3 text-center mb-3">
+					Подсчёт прямых участков трассы
+				</h1>
+				<form>
+					<div class="form-groupe mb-2">
+						<input type="number" id="kmInput" placeholder="Длина трассы, м" class="form-control form-control-lg">
+					</div>
+				</form>
+				<div id="output">
+					<div class="card alert-warning mb-2">
+						<div class="card-block">
+							<h4>Количество лотков (L=3000мм), шт.</h4>
+							<div id="metresOutput"></div>
+						</div>
+					</div>
+					<div class="card alert-warning mb-2">
+						<div class="card-block">
+							<h4>Количество соединителей, шт.</h4>
+							<div id="sanOutput"></div>
+						</div>
+					</div>
+					<div class="card alert-warning mb-2">
+						<div class="card-block">
+							<h4>Количество комплектов метизов, компл.</h4>
+							<div id="milOutput"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script>
+	document.getElementById('output').style.visibility = 'hidden';
+	document.getElementById ('kmInput').addEventListener('input', function (e){
+		document.getElementById('output').style.visibility = 'visible';
+let km=e.target.value;
+console.log(km);
+document.getElementById ('metresOutput').innerHTML = Math.ceil(km/3);
+var ll=Math.ceil(km/3);
+document.getElementById ('sanOutput').innerHTML =Math.ceil(2*ll);
+document.getElementById ('milOutput').innerHTML =Math.ceil(2*4*ll);
+	});
+</script>
+
+</body>
+</html>
