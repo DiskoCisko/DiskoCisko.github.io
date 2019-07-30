@@ -1,0 +1,13 @@
+.wr {
+	width: 100vw;
+	height: 100vw;
+	display: flex;
+}
+.wr_t {
+		width: 100vw;
+	height: 100vw;
+}
+img {
+width: 1px;
+height: 1px;padding: 0;
+}

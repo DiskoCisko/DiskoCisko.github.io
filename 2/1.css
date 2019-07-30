@@ -1,0 +1,81 @@
+
+.wr {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wr_t {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	font-family: 'Exo 2', sans-serif;
+	color: #2d3436;
+	
+}
+img {
+width: 100%;
+
+}
+#a1{
+height: 150px;
+width: 260px;
+padding: 0;
+margin-left: 5%;
+margin-top: -2%;
+
+	font-size: 2rem;
+}
+.wr_t_1 h1 {
+	font-size: 3rem;
+	padding: 0;margin: 0;
+	font-family: 'Exo 2', sans-serif;
+
+}
+.wr_t_1 {
+	margin-left: -1%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: wrap;
+}
+html {
+	height: 100%;
+	overflow: hidden;
+}
+.wr_t_1 a {
+	font-size: 2rem;
+}
+a {
+	text-decoration: none;
+	color: #212121;
+}
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+svg rect {
+	stroke: #2d3436;
+	stroke-width: 2;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+	stroke-dasharray: 400,0;
+}
+.bbox:hover svg rect {
+stroke-width: 4;
+stroke-dasharray: 65,80;
+}
+.bbox {
+	text-align: center;
+	
+	margin-top: 5%;
+	width: 345px;
+	height: 65px;
+	line-height: 65px;
+position: relative;
+}
