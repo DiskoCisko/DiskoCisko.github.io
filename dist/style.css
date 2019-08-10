@@ -14,16 +14,18 @@
 }
 .pprof {
  flex-basis: 40%;
+
 }
 
 .prof{
   width: 80%;
   background-color: rgb(57, 56, 58);
-  line-height: 1.875;
+  line-height: 1.87;
   text-align: left;
   padding: 10%;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 79.4%;
   
 }
 .prof p {
@@ -37,7 +39,7 @@
     rgb(171, 171, 171);
 }
 .ph {
-  height: 20%;
+  height: 15%;
   background: url('https://scontent-frx5-1.cdninstagram.com/vp/6d687653c5ade2ef423f078df775d300/5DD931D3/t51.2885-15/e35/21577250_323301228133735_7962943493624561664_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com') no-repeat;
   background-size: cover;
 }
@@ -66,11 +68,11 @@ color:rgb(171, 171, 171);
   margin-left: 6%;
 }
 p{
-  margin-bottom: 20%;
+  margin-bottom: 4%;
 }
 .lang h2 {
   text-transform: uppercase;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 .lt {
   color: rgb(171, 171, 171);
