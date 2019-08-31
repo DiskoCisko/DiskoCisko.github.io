@@ -6,3 +6,8 @@
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 788px) {
+  .header__inner {
+    flex-direction: column;
+  }
+}

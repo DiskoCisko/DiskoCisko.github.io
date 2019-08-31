@@ -15,3 +15,9 @@
 .social__link:hover {
   transform: translateY(-5px);
 }
+@media (max-width: 905px) {
+  .social {
+    text-align: center;
+    justify-content: center;
+  }
+}
