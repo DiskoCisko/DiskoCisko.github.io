@@ -185,7 +185,30 @@ color: #333;
 	font-size: 25px
 }
 p {
+	font-size: 16px;
+	line-height: 20px;
+}
+.ruls {
+	height: 100%;
+}
+	.btn__n {
+		display: none;
+	}
+	.ruls .btn {
+	line-height: 25px;
+}
+}
+@media (max-width: 374px) {
+
+	.ruls {
+		height: 100%;
 	font-size: 20px;
+	line-height: 20px;	
+	}
+	.btn__n {
+		display: none;
+	}
+	.ruls .btn {
 	line-height: 25px;
 }
 }
